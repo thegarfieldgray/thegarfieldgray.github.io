@@ -42,6 +42,10 @@
             background-color: #70b9b0;
         }
         
+        .nav,.navbar-nav, .navbar-right, a:hover{
+        	color: transparent;
+        }
+        
         ul.nav a:hover {
         	color: transparent !important; 
         	
