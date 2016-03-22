@@ -41,6 +41,11 @@
             height: 63%; 
             background-color: #70b9b0;
         }
+        
+        ul.nav a:hover {
+        	color: none !important; 
+        	
+        }
 
         .jumbotronTransp {
             padding: 30px;
