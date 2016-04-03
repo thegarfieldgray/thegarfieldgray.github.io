@@ -98,10 +98,10 @@
 		}
 
 		#nav-toggle-button{
-    		background-color:red;
+    		background-color:transparent;
 		}
 
-        #auto-marg, img, p
+        #auto-marg, img
         {
             margin: auto;
         }
