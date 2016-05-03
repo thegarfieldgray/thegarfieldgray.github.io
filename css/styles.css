@@ -1,7 +1,32 @@
-        .navbar-darkish {
+        .navbar-navy {
             background-color: #3d495f;
             margin-bottom: 0px;
-            border-radius: 0px;
+        }
+
+        .navbar-navy .navbar-toggle {
+        border-color: none;
+        }
+
+        .navbar-navy .navbar-toggle:hover
+        {
+         background-color: none;   
+        }
+        .navbar-navy .navbar-toggle:focus {
+         background-color: inherit;
+        }
+
+        .navbar-navy .navbar-toggle .icon-bar {
+        background-color: white;
+        }
+
+        .navbar-navy .navbar-toggle .icon-bar:hover {
+        background-color: #70b9b0;
+        }
+
+        .icon-bar {
+        color: #70b9b0;
+        border-color: black;
+        background-color: black;
         }
 
         .navbar-footer {
@@ -62,7 +87,7 @@
 
          
         ::-webkit-scrollbar {
-    		width: 5px;
+    		width: 7px;
 		}
  
 		::-webkit-scrollbar-track {
