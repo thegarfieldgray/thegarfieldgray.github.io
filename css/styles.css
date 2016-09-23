@@ -76,6 +76,10 @@
             color:white;
         }
 
+        .whitening,p {
+            font-size: 18px;
+        }
+
          
         ::-webkit-scrollbar {
     		width: 7px;
@@ -121,4 +125,21 @@
         {
             float:none;
             margin: auto;
+        }
+
+        .coverImage
+        {
+            width: 100%;
+            height: 50%;
+        }
+
+        .btn-nav{
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 7px;
+        }
+
+        .imgbackground
+        {
+            background-image: url("img/background.png");
         }
