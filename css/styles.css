@@ -40,9 +40,8 @@
 			letter-spacing: 2px
 		}
 
-        a {
+        nav a{
             color: white;
-            text-decoration: none;
         }
         
         ul.nav a:hover {
@@ -143,3 +142,14 @@
         {
             background-image: url("img/background.png");
         }
+
+        .btn-default2 {
+    background-color: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: #1c1c1c;
+    border-radius: 0;
+    padding: 5px;
+}
+
+        
