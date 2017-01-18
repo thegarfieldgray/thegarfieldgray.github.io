@@ -30,20 +30,20 @@
                 <div class="collapse navbar-collapse" id="main-navbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="hvr-sweep-to-bottom hvr-hang"><a href="index.html">Home</a></li>
-                        <li class="hvr-sweep-to-bottom hvr-hang"><a href="#" data-toggle="modal" data-target="#contactModal">Contact</a></li>
+                        <li class="hvr-sweep-to-bottom hvr-hang"><a href="" data-toggle="modal" data-target="#contactModal">Contact</a></li>
 
                         <!-- About Modal -->
 
-                        <div id="contactModal" class="modal fade" role="dialog">
-                            <div class="modal-dialog">
-                              <!-- Modal content-->
-                              <div class="modal-content">
-                                  <button type="button" class="close" data-dismiss="modal">&times; &nbsp;</button>
-                                  <br></br>
-                                  <center><h4 class="modal-title">CONTACT</h4></center>
-                                <div class="modal-body">
+                        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <center><h4 class="modal-title">Contact</h4></center>
+                              </div>
+                              <div class="modal-body">
+                                  <div class="modal-body">
                                     <div class="row">
-                                    <hr>
                                         <div class="col-xs-6">
                                             <p>Telephone: </p>
                                         </div>
@@ -66,15 +66,17 @@
                                         <div class="col-sm-6">
                                             <p><a href="https://www.facebook.com/jnr11">facebook</a> | <a href="https://www.instagram.com/garfieldgray_/">instgram</a> | <a href="https://plus.google.com/+GarfieldGray21">google+</a></p>
                                         </div>
-                                    </div>   
-                                <!--End Modal Body-->
+                                    </div> 
                               </div>
-                            </div>
-                          </div>
+                              <div class="modal-footer">
+                              </div>
+                            </div><!-- /.modal-content -->
+                          </div><!-- /.modal-dialog -->
                         </div>
-                        <!--End Modal -->
-                    </ul>
-                </div>
+
+                        </div>
+                        </ul>
+                        </div>
             </div>
         </nav>
         <!-- End header -->
