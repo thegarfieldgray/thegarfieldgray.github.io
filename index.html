@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width = device-width initial-scale = 1">
         <title>iAmGarfield | Developer</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+ 
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -13,6 +13,7 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
         <link rel="shortcut icon" href="img/user-outline.png">
     </head>
+
     <body>
     <!-- header -->
     	<nav class="navbar navbar-static-top navbar-navy" role="navigation">
@@ -22,7 +23,6 @@
                     <div class="hvr-pulse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
                     </div>
                     </button>
                      <a class="navbar-brand" href="index.html">Garfield Gray</a>
@@ -30,7 +30,49 @@
                 <div class="collapse navbar-collapse" id="main-navbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="hvr-sweep-to-bottom hvr-hang"><a href="index.html">Home</a></li>
-                        <li class="hvr-sweep-to-bottom hvr-hang"><a href="#" data-toggle="modal" data-target="#myModal">Contact</a></li>
+                        <li class="hvr-sweep-to-bottom hvr-hang"><a href="#" data-toggle="modal" data-target="#contactModal">Contact</a></li>
+
+                        <!-- About Modal -->
+
+                        <div id="contactModal" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                  <button type="button" class="close" data-dismiss="modal">&times; &nbsp;</button>
+                                  <br></br>
+                                  <center><h4 class="modal-title">CONTACT</h4></center>
+                                <div class="modal-body">
+                                    <div class="row">
+                                    <hr>
+                                        <div class="col-xs-6">
+                                            <p>Telephone: </p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p> 876 (460) 2915</p>
+                                        </div>
+                                    </div>
+                                     <div class="row">
+                                        <div class="col-xs-6">
+                                            <p>Email: </p>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <p> garfieldgray21@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <p>Connect: </p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p><a href="https://www.facebook.com/jnr11">facebook</a> | <a href="https://www.instagram.com/garfieldgray_/">instgram</a> | <a href="https://plus.google.com/+GarfieldGray21">google+</a></p>
+                                        </div>
+                                    </div>   
+                                <!--End Modal Body-->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!--End Modal -->
                     </ul>
                 </div>
             </div>
@@ -39,19 +81,17 @@
 
         <!-- Begin Main Cover Area -->
 		<div style="background-color: #70b9b0">
-            <div class="container">
-                <div class="container text-center">
-                    <p></p><p></p>
-                    <div class="container">
-                    	<div id="auto-marg">
+            <div class="container text-center">
+          
+                    <p></p></br></br>
+                  
+                    <div id="auto-marg">
                         <img src="img/ernest.png" class="img-responsive img-circle" alt="">
                         <section class="whitening">  
                         <h1 id="head-fade"><b>Garfield Gray</b></h1>
                         <p class="animated bounceInLeft">"You don't necessarily have to know anything you just have to be willing to learn."</p>
                         </section>
-                        </div>
                     </div>
-                </div>
             </div>
         </div>
         </br></br>
@@ -76,46 +116,8 @@
             </div>
         </div>
         <!-- End Main Skill Area -->
-
-        <!-- About Modal -->
-
-        <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                  <button type="button" class="close" data-dismiss="modal">&times; &nbsp;</button>
-                  <br>
-                  <center><h4 class="modal-title">CONTACT</h4></center>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <p>Telephone: </p>
-                        </div>
-                        <div class="col-xs-6">
-                            <p> 876 (460) 2915</p>
-                        </div>
-                    </div>
-                     <div class="row">
-                        <div class="col-xs-6">
-                            <p>Email: </p>
-                        </div>
-                        <div class="col-xs-6">
-                            <p> garfieldgray21@gmail.com</p>
-                        </div>
-                    </div>
-
-                    <hr>
-
-                 
-                <!--End Modal Body-->
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--End Modal -->
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
     </body>
 </html>
