@@ -1,0 +1,118 @@
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
+}
+
+.navbar #right_shift{
+    margin-right: 30px;
+}
+
+.navbar-brand {
+	margin-right: 30px;
+}
+
+#nunito_Font{
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+    letter-spacing: .09em;
+    padding: 13px
+}
+
+.btn-default2 {
+    background-color: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: #1c1c1c;
+    border-radius: 0;
+    padding: 5px;
+}
+
+.btn-default2:hover {
+  background-color: #121212;
+  color:white;
+}
+
+.btn-default-clearAll {
+    background-color: transparent;
+    border-style: solid;
+    border-width: thin;
+    border-color: #999999;
+    border-radius: 0;
+    padding: 5px;
+}
+
+.btn-default-clearAll:hover {
+    border-color: #1c1c1c;
+}
+
+.btn-default2-dark {
+    background-color: #121212;
+    border-style: solid;
+    border-width: thin;
+    border-color: #1c1c1c;
+    border-radius: 0;
+    padding: 5px;
+    color:white;
+}
+
+.btn-default2-dark:hover {
+  background-color: #d6d6d6;
+  border-color: #2098d1; /*121212*/
+  color: #121212;
+}
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1.3rem;
+    margin: 0 0 20px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+[type="radio"]:not(:checked)+label, [type="radio"]:checked+label,label {
+    position: relative;
+    padding-left: 15px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1rem;
+    transition: .28s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#cover-photo{
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+
