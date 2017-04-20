@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width = device-width initial-scale = 1">
         <title>iAmGarfield | Developer</title>
- 
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -18,7 +17,12 @@
     <!-- Alert message about JS -->
     <div class="alert alert-danger alert-dismissable fade in">
     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-        <p>Enable JavaScript to load from unauthorized source for contact and portfolio to work</p>
+        <p>Enable JavaScript to load from unauthorized source for contact and portfolio links to work | Github Hosting Error </p>
+    </div>
+
+    <div class="alert alert-warning alert-dismissable fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <p>The site is still under construction, expect new design soon. <span id="demo"></span></p>
     </div>
 
     <!-- header -->
@@ -98,7 +102,7 @@
                               <div class="modal-body">
                                   <div class="modal-body">
                                     <div class="row">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-4">
                                             <div class="card">
                                               <div class="card-block">
                                                 <h5 class="card-title text-center">ChantelnBailey E-commerce</h5>
@@ -109,11 +113,22 @@
                                               </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-4">
+                                            <div class="card">
+                                              <div class="card-block">
+                                                <h5 class="card-title text-center">AM Gestion Ltd</h5><br>
+                                                <p class="card-text text-center">
+                                                    <img src="img/amgestion.jpg" class="img-responsive" alt="">
+                                                </p>
+                                                <a href="http://amgestionjm.com/index-en.php" target="_blank" class="btn btn-success-2 btn-block">VISIT</a>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
                                             <!--Card-->
                                             <div class="card">
                                               <div class="card-block">
-                                                <h5 class="card-title text-center">Todo WebApp</h5>
+                                                <h5 class="card-title text-center">Todo WebApp</h5><br>
                                                 <p class="card-text text-center">
                                                     <img src="img/todoplaceit.png" class="img-responsive" alt="">
                                                 </p>
@@ -170,8 +185,45 @@
             </div>
         </div>
         <!-- End Main Skill Area -->
-	<script src="https://use.fontawesome.com/5e9283dd65.js"></script>    
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <br><br>
+
+	      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--Bootstrap JS-->
         <script src="js/bootstrap.js"></script>
+        <!-- Font awesome -->
+        <script src="https://use.fontawesome.com/5e9283dd65.js"></script>
+
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Jan 5, 2018 15:37:25").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+
+              // Get todays date and time
+              var now = new Date().getTime();
+
+              // Find the distance between now an the count down date
+              var distance = countDownDate - now;
+
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (19000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+              // Display the result in the element with id="demo"
+              document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+              + minutes + "m " + seconds + "s ";
+
+              // If the count down is finished, write some text 
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "Timer is running";
+              }
+            }, 1000);
+        </script>
+  
     </body>
 </html>
