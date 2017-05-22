@@ -278,7 +278,6 @@
 .shake {
   -webkit-animation-name: shake;
   animation-name: shake;
-  animation-duration: infinite;
 }
 
 @-webkit-keyframes headShake {
