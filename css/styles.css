@@ -74,12 +74,33 @@
   padding: 7px 15px;
   border: 1px solid black;
   background-color: transparent;
-  width: 15%; }
+  width: 175px; }
+
+.main_Btn:hover,
+.main_Btn:focus {
+  background-color: black;
+  color:white;
+  border: 2px solid black;
+}
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+h2 { 
+  border-right: 1px solid black;
+  width: 16.5em; 
+  width: 365px;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 3s steps(14, end),
+  blink-caret .5s step-end infinite alternate;
+}
 
 .copyright {
   position: absolute;
   bottom: 1px;
-  right: 5px; }
+  right: 5px;
+  color: #c12f32; }
 
 ol {
   list-style: none; }
