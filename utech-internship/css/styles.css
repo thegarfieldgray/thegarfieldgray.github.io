@@ -1,0 +1,304 @@
+html,body {
+	-webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background-color: #ecf0f1;
+}
+.creator-info {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-right: 60px;
+	margin-bottom: 4px;
+	z-index: -1;
+}
+
+.creator-info:focus {
+	outline: none;
+}
+
+.container-card {
+	position: absolute;
+  	width: 35%;
+  	min-height: 530px;
+  	height: auto;
+  	top: 48%;
+  	left: 49%;
+  	background-color: white;
+  	border: none;
+  	border-radius: 2px;
+  	padding:10px 20px 0px 20px;
+  	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+  				0 1px 5px 0 rgba(0, 0, 0, 0.12),
+  				0 3px 1px -2px rgba(0, 0, 0, 0.2);
+   	-webkit-transform: translate(-50%, -48%);
+  	-moz-transform: translate(-50%, -48%);
+  	-ms-transform: translate(-50%, -48%);
+}
+
+.container-card:hover {
+	box-shadow: 0 2.5px 2.5px 0 rgba(0, 0, 0, 0.24),
+  				0 1.5px 5.5px 0 rgba(0, 0, 0, 0.22),
+  				0 3.5px 1.5px -2px rgba(0, 0, 0, 0.3);
+  				transition-duration: 0.33s;
+}
+
+@media screen and (max-width: 1290px) {
+  .container-card {
+    width: 38%;
+    transition-duration: 0.3s; } }
+@media screen and (max-width: 1220px) {
+  .container-card {
+    width: 40%;
+    transition-duration: 0.3s; } }
+@media screen and (max-width: 1140px) {
+  .container-card {
+    width: 45%;
+    transition-duration: 0.3s; } }
+@media screen and (max-width: 1090px) {
+  .container-card {
+    width: 50%;
+    transition-duration: 0.3s; } }
+@media screen and (max-width: 1020px) {
+  .container-card {
+    width: 55%;
+    transition-duration: 0.3s; } }
+@media screen and (max-width: 920px) {
+  .container-card {
+    width: 60%;
+    transition-duration: 0.3s; } }
+@media screen and (max-width: 820px) {
+  .container-card {
+    width: 65%;
+    transition-duration: 0.3s; } }
+@media screen and (max-width: 720px) {
+  .container-card {
+    width: 75%;
+    transition-duration: 0.3s; } }
+@media screen and (max-width: 620px) {
+  .container-card {
+    width: 80%;
+    transition-duration: 0.3s; }
+    #forgotpassword {
+	margin-top: 0px;
+	}
+	.forgotpwd {
+	right: 0px;
+	}
+	.nav-card-header > ul > li > a:hover,
+	.nav-card-header > ul > li > a:focus,
+	.nav-card-header > ul > li > a:active {
+		color: #f5c907;
+		transition: 0.3;
+	} }
+@media screen and (max-width: 520px) {
+  .container-card {
+    width: 85%;
+    transition-duration: 0.3s; }
+	#forgotpassword {
+	margin-top: 0px;
+	}
+	.forgotpwd {
+	right: 0px;
+	}
+	.nav-card-header > ul > li > a:hover,
+	.nav-card-header > ul > li > a:focus,
+	.nav-card-header > ul > li > a:active {
+		color: #f5c907;
+		transition: 0.2s;
+	} }
+@media screen and (max-width: 480px) {
+  .container-card {
+    width: 90%;
+    transition-duration: 0.3s; }
+    #forgotpassword {
+	margin-top: 0px;
+	}
+	.forgotpwd {
+	right: 0px;
+	}
+	.nav-card-header > ul > li > a:hover,
+	.nav-card-header > ul > li > a:focus,
+	.nav-card-header > ul > li > a:active {
+		color: #f5c907;
+		transition: 0.3;
+	} }
+
+
+#container-card-note {
+	padding: 30px 30px 0 30px;
+}
+
+.nav-card {
+	position: relative;
+	top: 0;
+	left: 5px;
+	width: 100%;
+	margin-top: 4px;
+}
+
+.nav-card-header > ul {
+	padding-left: 20px;
+	list-style: none;
+}
+
+.nav-card-header > ul > li {
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 11px;
+}
+
+.nav-card-header > ul > li > a {
+	text-decoration: none;
+	font-size: 11.5px;
+	color: #34495e;
+}
+
+.nav-card-header > ul > li > a:hover,
+.nav-card-header > ul > li > a:focus,
+.nav-card-header > ul > li > a:active {
+	color: #f5c907;
+	font-size: 11.5px;
+	transition: 0.150s;
+}
+
+#image {
+	width: 140px;
+	height: 140px;
+	margin-top: 17px;
+}
+
+#sign-up-form {
+	margin-top: 32px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+#sign-up-form input[type="number"],
+				input[type="text"],
+				input[type="email"],
+				input[type="password"] {
+	background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1.3rem;
+    margin: 0 0 20px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    z-index: 3; 
+}
+
+#sign-up-form input:focus {
+	border-bottom-color: black;
+}
+
+.sign-up-btn {
+	width: 40%;
+	border: none;
+	color: white;
+	border-radius: 2px;
+	padding: 5px 15px;
+	margin-top: 15px;
+	margin-bottom: 40px;
+	border: none;
+  	text-align: center;
+  	letter-spacing: 0.5px;
+  	background-color: #34495e;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+				0 1px 5px 0 rgba(0, 0, 0, 0.12),
+				0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.sign-up-btn:focus,
+.sign-up-btn:hover {
+	border: none;
+	outline: none;
+	color: white;
+  	box-shadow: 0px 2px 3px #888888;
+  	background-color: #2c3e50;
+  	letter-spacing: 0.6px;
+  	transition-duration: 0.29s;
+  	z-index: 2;
+}
+
+#forgotpassword {
+	margin-top: 10px;
+}
+
+.forgotpwd {
+	position: absolute;
+	right: 15px;
+}
+
+.spinner {
+	height: 80px;
+	width: 80px;
+	border: 2px solid #2c3e50;
+	border-top: 2.2px solid yellow;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	animation: spin 0.4s infinite linear;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}to {
+		transform: rotate(360deg);
+	}
+}
+
+#overlay {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.2);
+	display: block;
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}

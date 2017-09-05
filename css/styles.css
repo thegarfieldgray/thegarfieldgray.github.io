@@ -109,4 +109,10 @@ ol li a {
   color: white;
   text-decoration: none; }
 
+#now {
+  text-decoration: none;
+  color: grey;
+  font-size: 11px;
+}
+
 /*# sourceMappingURL=styles.css.map */
