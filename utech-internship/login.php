@@ -9,7 +9,7 @@
 			<div class="nav-card-header">
 				<ul id="navList">
 					<li><a href="login.php">LOGIN</a></li>
-					<li><a href="signup.php">SIGN UP</a></li>
+					<li><a href="index.php">SIGN UP</a></li>
 				</ul>
 			</div>
 		</div>
