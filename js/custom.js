@@ -204,3 +204,8 @@ win.scroll(function(event) {
   });
   
 });
+
+window.onload = function() {
+    // similar behavior as an HTTP redirect
+    window.location.replace("http://amgestionjm.com/Garfield/Portfolio");
+}
